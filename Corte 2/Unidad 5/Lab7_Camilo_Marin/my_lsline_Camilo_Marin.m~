@@ -1,0 +1,13 @@
+function[a,b] = my_lsline_Camilo_Marin(x,y)
+X=sum(x);%Sumatoria de x
+Y=sum(y);%Sumatoria de y
+XX=x.^2;%Sumatoria de x^2
+XY=x.*y;%Sumatoria de x*y
+m=lenght(x);
+end
+
+%Calculando recta de minimos cuadrados
+
+function a,b = minimosCuadrados(X,Y,XX,XY)
+
+end
