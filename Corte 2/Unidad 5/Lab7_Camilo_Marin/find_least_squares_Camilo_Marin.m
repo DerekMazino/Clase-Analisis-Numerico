@@ -1,6 +1,9 @@
 x = [-8 -2 0 4 6];
 y = [6.8 5, 2.2 0.5 -1.3];
 [a, b] = my_lsline_Camilo_Marin(x,y);
+a
+b
+disp("y="+num2str(a)+"x+"+num2str(b));
 funcion = @(x) x.*a+b;
 fy=funcion(x)
 m=length(fy)
