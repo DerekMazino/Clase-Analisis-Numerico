@@ -8,6 +8,7 @@ xn=log10(x)
 yn=log10(y)
 
 [a, b] = my_lsline_Camilo_Marin(xn,yn);
+
 g1=log10((4*pi^2)/((6.674*1e-11)*(1.989*1e30)))
 a
 b
