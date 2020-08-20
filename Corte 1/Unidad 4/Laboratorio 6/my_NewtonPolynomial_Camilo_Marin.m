@@ -4,7 +4,7 @@ DD=zeros(n+1);
 DD(:,1)=Y;
 for k=2:n+1
     for J=k:n+1
-        DD(J,k)=[DD(J,k-1)-DD(J-1,k-1)]/[X(J)-X(J-k+1)];
+        DD(J,k)=round([DD(J,k-1)-DD(J-1,k-1)]/[X(J)-X(J-k+1)],5);
     end
 end
 disp('La matriz de diferencias divididas es:');

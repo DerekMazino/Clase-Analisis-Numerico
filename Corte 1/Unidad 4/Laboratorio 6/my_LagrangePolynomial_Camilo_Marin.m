@@ -12,6 +12,7 @@ for i=1:n
         end
     end
     L(i,:)=vec;
+    disp(L)
 end
 M=y*L
 end
